@@ -19,8 +19,9 @@ import static org.springframework.security.config.Customizer.withDefaults;
 public class ProjectSecurityConfig {
     @Bean
     SecurityFilterChain defaultSecurityFilterChain(HttpSecurity http) throws Exception {
-        http.authorizeHttpRequests((requests) -> requests.requestMatchers("/myAccount","/myBalance","/myLoans","/myCards").authenticated()
-                .requestMatchers("/notice","/contact").permitAll())
+        http.csrf((csrf) -> csrf.disable())
+                .authorizeHttpRequests((requests) -> requests.requestMatchers("/myAccount","/myBalance","/myLoans","/myCards").authenticated()
+                .requestMatchers("/notice","/contact","/register").permitAll())
         .formLogin(Customizer.withDefaults())
         .httpBasic(Customizer.withDefaults());
         return http.build();
@@ -52,18 +53,18 @@ public class ProjectSecurityConfig {
 //                .build();
 //        return new InMemoryUserDetailsManager(admin,user);
 //    }
-    @Bean // 접근법 2 NoOppPasswordEncoder bean
-    public InMemoryUserDetailsManager userDetailsService(){
-        UserDetails admin = User.withUsername("admin")
-                .password("1234")
-                .authorities("admin")
-                .build();
-        UserDetails user = User.withUsername("user")
-                .password("1234")
-                .authorities("read")
-                .build();
-        return new InMemoryUserDetailsManager(admin,user);
-    }
+//    @Bean // 접근법 2 NoOppPasswordEncoder bean
+//    public InMemoryUserDetailsManager userDetailsService(){
+//        UserDetails admin = User.withUsername("admin")
+//                .password("1234")
+//                .authorities("admin")
+//                .build();
+//        UserDetails user = User.withUsername("user")
+//                .password("1234")
+//                .authorities("read")
+//                .build();
+//        return new InMemoryUserDetailsManager(admin,user);
+//    }
 
     @Bean
     public PasswordEncoder passwordEncoder(){
