@@ -5,29 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79ef5779-932c-4e08-bba1-c7995dd74dc4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/practicespringsecurity/PracticeSpringSecurityApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/practicespringsecurity/config/CustomUserDetails.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/practicespringsecurity/config/CustomUsernamePwdAuthenticationProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/practicespringsecurity/config/ProjectSecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/practicespringsecurity/controller/AccountController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/practicespringsecurity/controller/BalanceController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/practicespringsecurity/controller/CardsController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/practicespringsecurity/controller/ContactController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/practicespringsecurity/controller/LoansController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/practicespringsecurity/controller/LoginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/practicespringsecurity/controller/NoticeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/practicespringsecurity/model/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/practicespringsecurity/repository/CustomerRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/practicespringsecurity/PracticeSpringSecurityApplicationTests.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/AccountTransactions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Accounts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Cards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Loans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Notice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/repository/AccountTransactionsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/repository/AccountsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/repository/CardsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/repository/ContactRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/repository/LoanRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/repository/NoticeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FE/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/FE/angular.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +28,9 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/BE">
       <ProjectState />
     </projectState>
   </component>
@@ -47,7 +42,7 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="PracticeSpringSecurity" type="f1a62948:ProjectNode" />
+                <item name="practiceSpringSecurity" type="f1a62948:ProjectNode" />
               </path>
             </expand>
             <select />
@@ -55,6 +50,14 @@
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,32 +70,65 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/leesm/IdeaProjects/practiceSpringSecurity&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/leesm/IdeaProjects/practiceSpringSecurity/BE/src/main/java/idusw/java/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;dbc307b18d26765c94d17f757bad9c08&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/leesm/IdeaProjects/practiceSpringSecurity/FE",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/leesm/IdeaProjects/practiceSpringSecurity/BE/src/main/java/idusw/java/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "spring.configuration.checksum": "dbc307b18d26765c94d17f757bad9c08",
+    "ts.external.directory.path": "C:\\Users\\leesm\\IdeaProjects\\practiceSpringSecurity\\FE\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.PracticeSpringSecurityApplication">
+    <configuration name="Tests (bank-app-ui)" type="JavaScriptTestRunnerKarma">
+      <config-file value="$PROJECT_DIR$/FE/karma.conf.js" />
+      <karma-package-dir value="" />
+      <working-directory value="$PROJECT_DIR$/FE" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application (FE)" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PracticeSpringSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="practiceSpringSecurity.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.practicespringsecurity.PracticeSpringSecurityApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="Angular CLI Server (FE)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/FE/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -106,11 +142,24 @@
       <workItem from="1699318889306" duration="1599000" />
       <workItem from="1699415766660" duration="2372000" />
       <workItem from="1699453697645" duration="114000" />
+      <workItem from="1699459476152" duration="392000" />
+      <workItem from="1699500803196" duration="5411000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -119,6 +168,11 @@
           <url>file://$PROJECT_DIR$/BE/src/main/java/idusw/java/Main.java</url>
           <line>15</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/repository/NoticeRepository.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
