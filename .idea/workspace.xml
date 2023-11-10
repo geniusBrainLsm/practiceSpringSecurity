@@ -5,21 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79ef5779-932c-4e08-bba1-c7995dd74dc4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/AccountTransactions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Accounts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Cards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Loans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Notice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/repository/AccountTransactionsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/repository/AccountsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/repository/CardsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/repository/ContactRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/repository/LoanRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/repository/NoticeRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/config/CustomUserDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/config/ProjectSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/config/ProjectSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/controller/BalanceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/controller/BalanceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/controller/CardsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/controller/CardsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/controller/ContactController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/controller/ContactController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/controller/LoansController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/controller/LoansController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/controller/NoticeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/controller/NoticesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/AccountTransactions.java" beforeDir="false" afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/AccountTransactions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Accounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Accounts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Cards.java" beforeDir="false" afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Cards.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Contact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FE/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/FE/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Loans.java" beforeDir="false" afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Loans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/repository/NoticeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/repository/NoticeRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +74,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
@@ -143,7 +150,9 @@
       <workItem from="1699415766660" duration="2372000" />
       <workItem from="1699453697645" duration="114000" />
       <workItem from="1699459476152" duration="392000" />
-      <workItem from="1699500803196" duration="5411000" />
+      <workItem from="1699500803196" duration="5467000" />
+      <workItem from="1699623284045" duration="134000" />
+      <workItem from="1699623586714" duration="3841000" />
     </task>
     <servers />
   </component>
