@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79ef5779-932c-4e08-bba1-c7995dd74dc4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/config/CustomUserDetails.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/config/ProjectSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/config/ProjectSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/controller/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/controller/BalanceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/controller/BalanceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/controller/CardsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/controller/CardsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/controller/ContactController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/controller/ContactController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/controller/LoansController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/controller/LoansController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/controller/NoticeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/controller/NoticesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/AccountTransactions.java" beforeDir="false" afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/AccountTransactions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Accounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Accounts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Cards.java" beforeDir="false" afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Cards.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Contact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Loans.java" beforeDir="false" afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/model/Loans.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/repository/NoticeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/BE/src/main/java/com/example/practicespringsecurity/repository/NoticeRepository.java" afterDir="false" />
-    </list>
+    <list default="true" id="79ef5779-932c-4e08-bba1-c7995dd74dc4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -152,7 +134,7 @@
       <workItem from="1699459476152" duration="392000" />
       <workItem from="1699500803196" duration="5467000" />
       <workItem from="1699623284045" duration="134000" />
-      <workItem from="1699623586714" duration="3841000" />
+      <workItem from="1699623586714" duration="4004000" />
     </task>
     <servers />
   </component>

@@ -1,5 +1,6 @@
 package com.example.practicespringsecurity.config;
 
+import com.example.practicespringsecurity.model.Authority;
 import com.example.practicespringsecurity.model.Customer;
 import com.example.practicespringsecurity.repository.CustomerRepository;
 import lombok.AllArgsConstructor;
@@ -15,6 +16,8 @@ import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
+
 @Component
 @AllArgsConstructor
 public class CustomUsernamePwdAuthenticationProvider implements AuthenticationProvider {
@@ -27,9 +30,7 @@ public class CustomUsernamePwdAuthenticationProvider implements AuthenticationPr
         List<Customer> customer = customerRepository.findByEmail(username);
         if(customer.size()>0){
             if(passwordEncoder.matches(pwd,customer.get(0).getPwd())) {
-                List<GrantedAuthority> authorities = new ArrayList<>();
-                authorities.add(new SimpleGrantedAuthority(customer.get(0).getRole()));
-                return new UsernamePasswordAuthenticationToken(username, pwd, authorities);
+                return new UsernamePasswordAuthenticationToken(username, pwd, getGrantAuthorities(customer.get(0).getAuthorities()));
             } else {
                 throw  new BadCredentialsException("Invaild password");
             }
@@ -37,7 +38,13 @@ public class CustomUsernamePwdAuthenticationProvider implements AuthenticationPr
             throw new BadCredentialsException("no user registered");
         }
     }
-
+    private List<GrantedAuthority> getGrantAuthorities(Set<Authority> authorities){
+        List<GrantedAuthority> grantedAuthorities = new ArrayList<>();
+        for(Authority authority:authorities){
+            grantedAuthorities.add(new SimpleGrantedAuthority(authority.getName()));
+        }
+        return grantedAuthorities;
+    }
     @Override
     public boolean supports(Class<?> authentication) {
         return (UsernamePasswordAuthenticationToken.class.isAssignableFrom(authentication));
